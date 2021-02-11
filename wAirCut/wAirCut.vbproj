@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{946D16EC-241B-412D-835F-AE2C509BD3A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>wAirCut</RootNamespace>
+    <AssemblyName>wAirCut</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>wAirCut.ico</ApplicationIcon>
+    <StartupObject>Form0</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.Designer.vb">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApLogForm.Designer.vb">
+      <DependentUpon>ApLogForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApLogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attribute0.vb" />
+    <Compile Include="Class10.vb" />
+    <Compile Include="Class11.vb" />
+    <Compile Include="Class12.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class13.vb" />
+    <Compile Include="Class5.vb" />
+    <Compile Include="Class6.vb" />
+    <Compile Include="Form0.vb" />
+    <Compile Include="GClass0.vb" />
+    <Compile Include="GClass1.vb" />
+    <Compile Include="GClass10.vb" />
+    <Compile Include="GClass11.vb" />
+    <Compile Include="GClass12.vb" />
+    <Compile Include="GClass13.vb" />
+    <Compile Include="GClass14.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GClass15.vb" />
+    <Compile Include="GClass16.vb" />
+    <Compile Include="GClass3.vb" />
+    <Compile Include="GClass4.vb" />
+    <Compile Include="GClass5.vb" />
+    <Compile Include="GClass6.vb" />
+    <Compile Include="GClass7.vb" />
+    <Compile Include="GClass8.vb" />
+    <Compile Include="GClass9.vb" />
+    <Compile Include="GEnum10.vb" />
+    <Compile Include="GEnum11.vb" />
+    <Compile Include="GEnum12.vb" />
+    <Compile Include="GEnum13.vb" />
+    <Compile Include="GEnum14.vb" />
+    <Compile Include="GEnum15.vb" />
+    <Compile Include="GEnum16.vb" />
+    <Compile Include="GEnum17.vb" />
+    <Compile Include="GEnum8.vb" />
+    <Compile Include="GEnum9.vb" />
+    <Compile Include="GInterface0.vb" />
+    <Compile Include="GInterface1.vb" />
+    <Compile Include="GInterface10.vb" />
+    <Compile Include="GInterface11.vb" />
+    <Compile Include="GInterface12.vb" />
+    <Compile Include="GInterface13.vb" />
+    <Compile Include="GInterface14.vb" />
+    <Compile Include="GInterface15.vb" />
+    <Compile Include="GInterface16.vb" />
+    <Compile Include="GInterface2.vb" />
+    <Compile Include="GInterface3.vb" />
+    <Compile Include="GInterface4.vb" />
+    <Compile Include="GInterface5.vb" />
+    <Compile Include="GInterface6.vb" />
+    <Compile Include="GInterface7.vb" />
+    <Compile Include="GInterface8.vb" />
+    <Compile Include="GInterface9.vb" />
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My\MySettings.Designer.vb">
+      <DependentUpon>MySettings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PixieForm.Designer.vb">
+      <DependentUpon>PixieForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PixieForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandomPinForm.Designer.vb">
+      <DependentUpon>RandomPinForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RandomPinForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StringListEditor.Designer.vb">
+      <DependentUpon>StringListEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StringListEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateForm.Designer.vb">
+      <DependentUpon>UpdateForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitSplashForm.Designer.vb">
+      <DependentUpon>WaitSplashForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WaitSplashForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitSplashProcess.Designer.vb">
+      <DependentUpon>WaitSplashProcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WaitSplashProcess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WpsPinForm.Designer.vb">
+      <DependentUpon>WpsPinForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WpsPinForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutForm.resources" />
+    <EmbeddedResource Include="ApLogForm.resources" />
+    <EmbeddedResource Include="language.resources" />
+    <EmbeddedResource Include="MainForm.resources" />
+    <EmbeddedResource Include="PixieForm.resources" />
+    <EmbeddedResource Include="RandomPinForm.resources" />
+    <EmbeddedResource Include="Resources.resources" />
+    <EmbeddedResource Include="StringListEditor.resources" />
+    <EmbeddedResource Include="UpdateForm.resources" />
+    <EmbeddedResource Include="WaitSplashForm.resources" />
+    <EmbeddedResource Include="WaitSplashProcess.resources" />
+    <EmbeddedResource Include="WpsPinForm.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="My\MySettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MySettings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

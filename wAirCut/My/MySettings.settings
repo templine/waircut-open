@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile CurrentProfile="(Default)" GeneratedClassNamespace="wAirCut.My" GeneratedClassName="MySettings" xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastDateNewsWatched" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">01/31/2017 21:23:00</Value>
+    </Setting>
+    <Setting Name="ServiceHours" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="nRigth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="nWrong" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LastDateOnlineNews" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">01/31/1990 21:42:00</Value>
+    </Setting>
+    <Setting Name="Culture" Type="System.String" Scope="User">
+      <Value Profile="(Default)"></Value>
+    </Setting>
+    <Setting Name="mbl" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="StartTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2016-02-20</Value>
+    </Setting>
+    <Setting Name="ScanTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="LastDBDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">01/31/1990 21:42:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

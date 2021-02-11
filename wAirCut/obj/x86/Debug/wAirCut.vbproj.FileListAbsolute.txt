@@ -1,0 +1,2 @@
+C:\Users\ahmed\Desktop\Waircut V1.9\sln vb\wAirCut\obj\x86\Debug\wAirCut.vbprojAssemblyReference.cache
+C:\Users\ahmed\Desktop\Waircut V1.9\sln vb\wAirCut\obj\x86\Debug\wAirCut.vbproj.CoreCompileInputs.cache
